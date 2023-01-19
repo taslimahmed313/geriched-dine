@@ -57,3 +57,19 @@
   text-align: center;
   margin-top: 60px;
 }
+
+@media screen and (max-width: 650px) {
+  .items_grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .home_menu_card {
+    flex-direction: column;
+  }
+  .home_menu_card img {
+    width: 100%;
+  }
+  .card_heading {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+}

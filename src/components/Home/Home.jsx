@@ -14,6 +14,7 @@ const Home = () => {
             <Laurels />
             <Gallery />
             <FindUs />
+            {/* <Newsletter/> */}
         </div>
     );
 };

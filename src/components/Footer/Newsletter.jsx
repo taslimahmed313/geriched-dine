@@ -4,7 +4,8 @@ import SubHeading from '../SubHeading/SubHeading';
 import './Newsletter.css';
 
 const Newsletter = () => (
-  <div className="app__newsletter">
+  <div className="app__newsletter app__bg">
+    {/* <FooterOverlay/> */}
     <div className="app__newsletter-heading">
       <SubHeading title="Newsletter" />
       <h1 className="headtext__cormorant">Subscribe To Our Newsletter</h1>

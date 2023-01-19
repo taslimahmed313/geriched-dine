@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import { SubHeading } from '../../components';
 import "./FoodMenu.css";
 import MenuCart from './MenuCard';
 
@@ -46,16 +48,16 @@ const FoodMenu = () => {
         <div className='app__bg section__padding'>
             <div className='food_menu'>
                 <h1 className='headtext__cormorant'>Our Menu</h1>
-            <p className='p__cormorant'>The most delicious dishes made from the freshest of 
-            ingredients</p>
+                <SubHeading title={"The most delicious dishes made from the freshest of ingredients"}/>
             </div>
             <div className='items_grid'>
                 {items.map((item,i) =><MenuCart key={i} item={item} /> )}
             </div>
             <div className='center_align'>
-                <button type="button" className="custom__button">
+                
+                    <Link to="/food_menu"><button type="button" className="custom__button">
                     Discover Entire Menu
-                    </button>
+                    </button></Link>
             </div>
         </div>
     );
