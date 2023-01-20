@@ -1,0 +1,17 @@
+.food_list_flex {
+  display: flex;
+  gap: 4px;
+  color: var(--color-golden);
+  padding: 10px 0px;
+  justify-content: space-between;
+  /* border: 1px solid var(--color-golden); */
+}
+.margin_left {
+  margin-left: 24px;
+}
+.img_check_mark {
+  width: 20px;
+}
+.food_img {
+  width: 60px;
+}
