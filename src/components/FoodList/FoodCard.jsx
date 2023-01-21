@@ -9,8 +9,8 @@ const FoodCard = ({item}) => {
             <div className='food_card_info'>
                 <h1 className='food_card_heading '>{name}</h1>
                 <p className='food_card_food_element'>{food_element}</p>
-                <p className='food_card_food_price'><span>BDT</span> {price}++</p>
             </div>
+            <p className='food_card_food_price'><span>BDT</span> {price} ++</p>
         </div>
     );
 };
