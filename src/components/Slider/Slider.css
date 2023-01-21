@@ -1,9 +1,11 @@
 .slider_img {
   width: 100%;
   height: 700px;
+  object-fit: cover;
 }
 @media screen and (max-width: 650px) {
   .slider_img {
-    height: auto;
+    width: 100%;
+    height: 340px;
   }
 }

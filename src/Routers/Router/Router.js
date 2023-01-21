@@ -1,3 +1,4 @@
+import About from "../../components/About/About";
 import FoodList from "../../components/FoodList/FoodList";
 
 const { createBrowserRouter } = require("react-router-dom");
@@ -17,6 +18,10 @@ export const router = createBrowserRouter([
         path: "/food_menu",
         element: <FoodList />,
       },
+      {
+        path: "/about_us",
+        element: <About/>
+      }
     ],
   },
 ]);

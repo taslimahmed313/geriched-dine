@@ -34,7 +34,7 @@ const FoodList = () => {
            </div>
 
            
-           {/* Salads & Soup Menu List-------------------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */}
+           {/* Salads & Soup Menu List----------------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/}
            <div>
             <h1 className='headtext__swash'>Salads & Soup</h1>
             <div className='food_list_grid'>
