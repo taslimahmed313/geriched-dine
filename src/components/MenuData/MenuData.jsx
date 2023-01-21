@@ -75,7 +75,7 @@
         },
         {
             id: "2",
-            name: "Roasted Beetroot Salad with Feta",
+            name: "Roasted Beetroot Feta",
             img: "https://bistro-e.com/wp-content/uploads/elementor/thumbs/Roasted-Beetroot-Salad-with-Feta-1-pnvmgo9bxua0zfxx90g3zubrxfrz6c95a1qzm5ka5s.jpg",
             price: "700",
             food_element: "Beetroot, Seasonal Greens, Cucumber, Tomatoes, Feta, Couscous, Harissa Dressing"
@@ -110,10 +110,10 @@
         },
         {
             id: "7",
-            name: "Couscous Salad with Chicken",
+            name: "Couscous Salad Chicken",
             img: "https://media.istockphoto.com/id/653919416/photo/couscous-with-haehnchenbruts.jpg?s=612x612&w=0&k=20&c=AgdLbRBlbptMPu_XwsbivnjQoGGHWfWfY2H0cq73JTE=",
             price: "750",
-            food_element: "Grilled Chicken Thigh, Seasonal Greens, Cucumber, Tomatoes, Couscous, Harissa Dressing"
+            food_element: "Grilled Chicken Thigh, Seasonal Greens, Cucumber, Tomatoes, Couscous"
         },
         {
             id: "7",
@@ -123,8 +123,11 @@
             food_element: "Sautéed Button Mushrooms, Smoked Chicken Cubes, Chicken Broth"
         }
     ]
-
     // Soups and Salads Slider Images--------------------------->>>>>>>>>>>>>>
     export const salad_img = [
         "https://bistro-e.com/wp-content/uploads/elementor/thumbs/Caesar-Salad-1-1-pnvmgnbhr08qntzaei1hfckbc1wlyn5exx3i4vloc0.jpg","https://bistro-e.com/wp-content/uploads/elementor/thumbs/Roasted-Beetroot-Salad-with-Feta-1-pnvmgo9bxua0zfxx90g3zubrxfrz6c95a1qzm5ka5s.jpg","https://bistro-e.com/wp-content/uploads/elementor/thumbs/Snapper-Nicoise-1-pnvmgnbhr08qntzaei1hfckbc1wlyn5exx3i4vloc0.jpg","https://bistro-e.com/wp-content/uploads/elementor/thumbs/Roasted-Cauliflower-1-1-pnvmgnbhr08qntzaei1hfckbc1wlyn5exx3i4vloc0.jpg","https://thumbs.dreamstime.com/b/french-onion-soup-see-my-other-works-portfolio-36811119.jpg","https://media.istockphoto.com/id/924744284/photo/tabbouleh-salad-with-tomato-cucumber-couscous-mint-and-pomegranate-vegan-healthy-food-concept.jpg?s=612x612&w=0&k=20&c=tGDaGmhegZyBi5rK-v1TAXByQL0RSlZeYPneQ_Xf_bE=","https://media.istockphoto.com/id/653919416/photo/couscous-with-haehnchenbruts.jpg?s=612x612&w=0&k=20&c=AgdLbRBlbptMPu_XwsbivnjQoGGHWfWfY2H0cq73JTE=","https://media.istockphoto.com/id/597926666/photo/mushroom-soup-with-parsley.jpg?s=612x612&w=0&k=20&c=xhUB_u_bUQoumN-uzJQHCMglPlGWJWcnH32lcU-mJkg="
     ]
+
+
+
+    // 

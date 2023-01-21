@@ -109,7 +109,17 @@
   text-transform: capitalize;
   font-weight: 200;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 130px;
+}
+.slider__swash {
+  font-family: var(--font-another);
+  color: var(--color-golden);
+  font-size: 35px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-weight: 200;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .spoon__img {
