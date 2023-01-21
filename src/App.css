@@ -105,12 +105,11 @@
   font-family: var(--font-another);
   color: var(--color-golden);
   font-size: 54px;
-  /* line-height: 83.2px; */
   letter-spacing: 0.04em;
   text-transform: capitalize;
   font-weight: 200;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 100px;
 }
 
 .spoon__img {
@@ -189,5 +188,9 @@
   .headtext__cormorant {
     font-size: 45px;
     line-height: 70px;
+  }
+  .headtext__swash {
+    margin-top: 50px;
+    font-size: 38px;
   }
 }
