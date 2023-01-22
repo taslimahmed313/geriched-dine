@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mains_first, Mains_first_img, Mains_second, Mains_second_img, Platters, salad, salad_img, Starters, starters_img } from '../MenuData/MenuData';
+import { Mains_first, Mains_first_img, Mains_second, Mains_second_img, Mains_third, Mains_third_img, Platters, salad, salad_img, Starters, starters_img } from '../MenuData/MenuData';
 import Slider from '../Slider/Slider';
 import SubHeading from '../SubHeading/SubHeading';
 import FoodCard from './FoodCard';
@@ -86,13 +86,13 @@ const FoodList = () => {
                             }
                         </div>
                         <div className='food_list_slider'>
-                            <h1 className='slider__swash'>Just Take A Look</h1>
+                            <h1 className='slider__swash extra__padding'>Just Take A Look</h1>
                         <Slider item_img={Mains_first_img} />
                         </div>
                         
                         {/* Second Main Slider */}
                         <div className='food_list_slider'>
-                            {/* <h1 className='slider__swash'>Just Take A Look</h1> */}
+                           <h1 className='slider__swash extra__padding'>Just Take A Look</h1>
                         <Slider item_img={Mains_second_img} />
                         </div>
                         <div className='food_list'>
@@ -103,14 +103,15 @@ const FoodList = () => {
                         
 
                         {/* Third Main Slider */}    
-                        <div className='food_list_slider'>
-                        <Slider item_img={salad_img} />
-                        </div>    
                         <div className='food_list'>
                             { 
-                                salad.map(item =><FoodCard key={item.id} item={item}/>)
+                                Mains_third.map(item =><FoodCard key={item.id} item={item}/>)
                             }
                         </div>
+                        <div className='food_list_slider'>
+                            <h1 className='slider__swash extra__padding'>Just Take A Look</h1>
+                        <Slider item_img={Mains_third_img} />
+                        </div>  
                         
                         
                     </div>

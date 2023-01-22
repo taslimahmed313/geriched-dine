@@ -49,13 +49,7 @@
             price: "750",
             food_element: "Moroccan Mutton Keftas, Pickled Gherkins, Fries, Pita Bread, Hummus, Garlic Aioli"
         },
-        {
-            id: "8",
-            name: "Mozzarella Sticks",
-            img: "https://bistro-e.com/wp-content/uploads/elementor/thumbs/Mozzarella-Sticks-1-1-pnvmgmdnk67gc80njzmuuusuqo18qy1olsg0nln2i8.jpg",
-            price: "500",
-            food_element: "Parmesan, Cheddar, Mozzarella, Napoletana Sauce"
-        }
+        
     ]
     // Starters Slider Image------------------------------------->>>>
     export const starters_img = [
@@ -114,13 +108,7 @@
             price: "750",
             food_element: "Grilled Chicken Thigh, Seasonal Greens, Cucumber, Tomatoes, Couscous"
         },
-        {
-            id: "8",
-            name: "Cream of Mushroom Soup",
-            img: "https://media.istockphoto.com/id/597926666/photo/mushroom-soup-with-parsley.jpg?s=612x612&w=0&k=20&c=xhUB_u_bUQoumN-uzJQHCMglPlGWJWcnH32lcU-mJkg=",
-            price: "500",
-            food_element: "Sautéed Button Mushrooms, Smoked Chicken Cubes, Chicken Broth"
-        }
+        
     ]
     // Soups and Salads Slider Images--------------------------->>>>>>>>>>>>>>
     export const salad_img = [
@@ -158,7 +146,7 @@
     ]
 
 
-    // Mains Data----------------------------------->>>>>>>>>>>
+    // Mains First Data----------------------------------->>>>>>>>>>>
     export const Mains_first = [
         {
             id: "1",
@@ -210,7 +198,7 @@
             food_element: "Panko Crumbed Chicken Breast, Napoletana Sauce, Mozzarella."
         },
     ]
-    // Mains Slider Image------------------------------------>>>>
+    // Mains First Slider Image------------------------------------>>>>
     export const Mains_first_img = [
             "https://bistro-e.com/wp-content/uploads/elementor/thumbs/Moroccan-Chicken-1-pnvmgo9bxua0zfxx90g3zubrxfrz6c95a1qzm5ka5s.jpg","https://bistro-e.com/wp-content/uploads/elementor/thumbs/Grilled-Prawn-1-pnvmgo9bxua0zfxx90g3zubrxfrz6c95a1qzm5ka5s.jpg","https://bistro-e.com/wp-content/uploads/elementor/thumbs/Red-Snapper-1-pnvmgo9bxua0zfxx90g3zubrxfrz6c95a1qzm5ka5s.jpg","https://bistro-e.com/wp-content/uploads/elementor/thumbs/Seafood-Platter-1-pnvmgo9bxua0zfxx90g3zubrxfrz6c95a1qzm5ka5s.jpg"
     ]
@@ -269,4 +257,60 @@
     // Mains Second Slider Image------------------------------------>>>>
     export const Mains_second_img = [
         "https://bistro-e.com/wp-content/uploads/elementor/thumbs/Aubergine-Parmigiana-1-pnvmgp764obbb1wk3iuqkc38itnce1cvm6eh3fivzk.jpg","https://bistro-e.com/wp-content/uploads/elementor/thumbs/Grilled-Lamb-Chops-1-pnvmgq50biclmnv6y19d4tup47iplqglyb1ykphhtc.jpg","https://bistro-e.com/wp-content/uploads/elementor/thumbs/Wild-Mushroom-Risotto-1-pnvmgp764obbb1wk3iuqkc38itnce1cvm6eh3fivzk.jpg","https://bistro-e.com/wp-content/uploads/elementor/thumbs/Seafood-Risotto-1-pnvmgo9bxua0zfxx90g3zubrxfrz6c95a1qzm5ka5s.jpg","https://bistro-e.com/wp-content/uploads/elementor/thumbs/Steak-Frites-Sirloin-1-pnvmgp764obbb1wk3iuqkc38itnce1cvm6eh3fivzk.jpg","https://bistro-e.com/wp-content/uploads/elementor/thumbs/Steak-Frites-Rib-Eye-1-pnvmgp764obbb1wk3iuqkc38itnce1cvm6eh3fivzk.jpg"
+    ]
+    // Mains Third Data------------------------------------>>>>>>>>>>>
+    export const Mains_third = [
+        {
+            id: "1",
+            name: "Pomodore Chicken Pasta",
+            img: "https://bistro-e.com/wp-content/uploads/elementor/thumbs/Pomodore-Chicken-Pasta-1-pnvmgp764obbb1wk3iuqkc38itnce1cvm6eh3fivzk.jpg",
+            price: "850",
+            food_element: "Chicken, Button Mushroom, Fettuccine, Tomato Sauce"
+        },
+        {
+            id: "2",
+            name: "Prawn Aglio Oglio",
+            img: "https://bistro-e.com/wp-content/uploads/elementor/thumbs/Prawn-Aglio-Oglio-1-pnvmgp764obbb1wk3iuqkc38itnce1cvm6eh3fivzk.jpg",
+            price: "900",
+            food_element: "Prawn, Garlic, Chili Flakes, Spaghetti, Olive Oil"
+        },
+        {
+            id: "3",
+            name: "Chicken Alfredo Pasta",
+            img: "https://bistro-e.com/wp-content/uploads/elementor/thumbs/Chicken-Alfredo-Pasta-1-pnvmgp764obbb1wk3iuqkc38itnce1cvm6eh3fivzk.jpg",
+            price: "850",
+            food_element: "Chicken, Button Mushroom, Fettuccine, Roasted"
+        },
+        {
+            id: "4",
+            name: "Seafood Pasta",
+            img: "https://bistro-e.com/wp-content/uploads/elementor/thumbs/Seafood-Pasta-1-pnvmgq50biclmnv6y19d4tup47iplqglyb1ykphhtc.jpg",
+            price: "1350",
+            food_element: "Prawn, Red Snapper, Squid, Linguini, Tomato Sauce"
+        },
+        {
+            id: "5",
+            name: "Chicken Pesto Pasta",
+            img: "https://bistro-e.com/wp-content/uploads/elementor/thumbs/Chicken-Pesto-Pasta-1-1-pnvmgp764obbb1wk3iuqkc38itnce1cvm6eh3fivzk.jpg",
+            price: "850",
+            food_element: "Chicken, Button Mushroom, Fettuccine, Pesto"
+        },
+        {
+            id: "6",
+            name: " Mushroom Pesto Pasta",
+            img: "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_4:3/k%2FEdit%2Fone-pot-mushroom-pesto-pasta",
+            price: "750",
+            food_element: "Spinach, Button Mushrooms, Fettuccine"
+        },
+        {
+            id: "7",
+            name: "Snapper Niçoise",
+            img: "https://images.slurrp.com/prod/recipe_images/taste/grilled-vegetables-snapper-1619087285_3HUSLCEZQ0WHA3HFKDUJ.webp",
+            price: "550",
+            food_element: "Grilled Red Snapper, Boiled Egg,"
+        },
+    ]
+    // Mains Third Slider Images------------------->>>>>>>>>>>>>>>>>
+    export const Mains_third_img = [
+        "https://bistro-e.com/wp-content/uploads/elementor/thumbs/Pomodore-Chicken-Pasta-1-pnvmgp764obbb1wk3iuqkc38itnce1cvm6eh3fivzk.jpg","https://bistro-e.com/wp-content/uploads/elementor/thumbs/Prawn-Aglio-Oglio-1-pnvmgp764obbb1wk3iuqkc38itnce1cvm6eh3fivzk.jpg","https://bistro-e.com/wp-content/uploads/elementor/thumbs/Chicken-Alfredo-Pasta-1-pnvmgp764obbb1wk3iuqkc38itnce1cvm6eh3fivzk.jpg","https://bistro-e.com/wp-content/uploads/elementor/thumbs/Seafood-Pasta-1-pnvmgq50biclmnv6y19d4tup47iplqglyb1ykphhtc.jpg","https://bistro-e.com/wp-content/uploads/elementor/thumbs/Chicken-Pesto-Pasta-1-1-pnvmgp764obbb1wk3iuqkc38itnce1cvm6eh3fivzk.jpg"
     ]

@@ -63,8 +63,14 @@
   width: 100%;
   border-radius: 12px;
 }
+.extra__padding {
+  padding-top: 50px;
+}
 @media screen and (max-width: 650px) {
   .food_list_grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .food_list_grid_multi_slider {
     grid-template-columns: repeat(1, 1fr);
   }
   .food_list_slider {
