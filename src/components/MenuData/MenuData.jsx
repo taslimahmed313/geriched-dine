@@ -123,6 +123,15 @@
             food_element: "Sautéed Button Mushrooms, Smoked Chicken Cubes, Chicken Broth"
         }
     ]
+    export const data_indigrate = [
+        {
+            id: "1",
+            name: "Caesar Salad",
+            img: "https://bistro-e.com/wp-content/uploads/elementor/thumbs/Caesar-Salad-1-1-pnvmgnbhr08qntzaei1hfckbc1wlyn5exx3i4vloc0.jpg",
+            price: "750",
+            food_element: "Grilled Chicken Thigh, Seasonal Greens, Tomatoes, Cucumber, Beef Bacon, Boiled Egg."
+        },
+    ]
     // Soups and Salads Slider Images--------------------------->>>>>>>>>>>>>>
     export const salad_img = [
         "https://bistro-e.com/wp-content/uploads/elementor/thumbs/Caesar-Salad-1-1-pnvmgnbhr08qntzaei1hfckbc1wlyn5exx3i4vloc0.jpg","https://bistro-e.com/wp-content/uploads/elementor/thumbs/Roasted-Beetroot-Salad-with-Feta-1-pnvmgo9bxua0zfxx90g3zubrxfrz6c95a1qzm5ka5s.jpg","https://bistro-e.com/wp-content/uploads/elementor/thumbs/Snapper-Nicoise-1-pnvmgnbhr08qntzaei1hfckbc1wlyn5exx3i4vloc0.jpg","https://bistro-e.com/wp-content/uploads/elementor/thumbs/Roasted-Cauliflower-1-1-pnvmgnbhr08qntzaei1hfckbc1wlyn5exx3i4vloc0.jpg","https://thumbs.dreamstime.com/b/french-onion-soup-see-my-other-works-portfolio-36811119.jpg","https://media.istockphoto.com/id/924744284/photo/tabbouleh-salad-with-tomato-cucumber-couscous-mint-and-pomegranate-vegan-healthy-food-concept.jpg?s=612x612&w=0&k=20&c=tGDaGmhegZyBi5rK-v1TAXByQL0RSlZeYPneQ_Xf_bE=","https://media.istockphoto.com/id/653919416/photo/couscous-with-haehnchenbruts.jpg?s=612x612&w=0&k=20&c=AgdLbRBlbptMPu_XwsbivnjQoGGHWfWfY2H0cq73JTE=","https://media.istockphoto.com/id/597926666/photo/mushroom-soup-with-parsley.jpg?s=612x612&w=0&k=20&c=xhUB_u_bUQoumN-uzJQHCMglPlGWJWcnH32lcU-mJkg="
@@ -130,4 +139,31 @@
 
 
 
-    // 
+    //  Platters Data
+    export const Platters = [
+        {
+            name: "Hummus Bowl",
+            price: "499",
+            img: "https://bistro-e.com/wp-content/uploads/2022/01/Hummus-Bowl-1-1.jpg",
+            food_element: "with Pita Bread"
+        },
+        {
+            name: "Crostini Platter",
+            price: "749",
+            img: "https://bistro-e.com/wp-content/uploads/2022/01/Crostini-Platter-1.jpg",
+            food_element: "Long Beans, Anchovy Tapenade Dressing"
+        },
+        {
+            name: "Seafood Basket",
+            price: "999",
+            img: "https://bistro-e.com/wp-content/uploads/2022/01/Seafood-Basket-1.jpg",
+            food_element: "Salt n Pepper Squid, Prawn Croquettes, Fish & Chips, Signature Fries"
+        },
+        {
+            name: "Slider Fest",
+            single_pieces: "999",
+            multi_pieces: "1,999",
+            img: "https://bistro-e.com/wp-content/uploads/2022/01/Slider-Fest-1-1.jpg",
+            food_element: "Merguez, Dory, Prawn, Signature"
+        },
+    ]

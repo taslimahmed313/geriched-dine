@@ -3,6 +3,9 @@
   height: 700px;
   object-fit: cover;
 }
+.slider_margin {
+  margin-top: 40px;
+}
 @media screen and (max-width: 650px) {
   .slider_img {
     width: 100%;

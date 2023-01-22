@@ -12,7 +12,7 @@ import { Autoplay, Pagination } from "swiper";
 
 const Slider = ({item_img}) => {
     return (
-        <div>
+        <div className='slider_margin'>
             <Swiper
          spaceBetween={30}
         centeredSlides={true}
