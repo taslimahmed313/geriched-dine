@@ -1,5 +1,5 @@
 import React from 'react';
-import { Platters, salad, salad_img, Starters, starters_img } from '../MenuData/MenuData';
+import { Mains_first, Mains_first_img, Platters, salad, salad_img, Starters, starters_img } from '../MenuData/MenuData';
 import Slider from '../Slider/Slider';
 import SubHeading from '../SubHeading/SubHeading';
 import FoodCard from './FoodCard';
@@ -57,9 +57,9 @@ const FoodList = () => {
                 </div>  
 
 
-           {/* Salads & Soup Menu List----------------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/}
+           {/* Soups & Salads Menu List----------------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/}
                 <div>
-                    <h1 className='headtext__swash'>Salads & Soup</h1>
+                    <h1 className='headtext__swash'>Soups & Salads</h1>
                     <div className='food_list_grid'>
                         <div className='food_list'>
                             { 
@@ -74,19 +74,43 @@ const FoodList = () => {
                 </div>
 
 
-           {/* Salads & Soup Menu List----------------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/}
+           {/* Mains Menu List----------------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/}
                 <div>
-                    <h1 className='headtext__swash'>Salads & Soup</h1>
-                    <div className='food_list_grid'>
+                    <h1 className='headtext__swash'>Mains</h1>
+                    <div className='food_list_grid_multi_slider'>
+                        
+                        {/* First Main Slider */}
+                        <div className='food_list'>
+                            { 
+                                Mains_first.map(item =><FoodCard key={item.id} item={item}/>)
+                            }
+                        </div>
                         <div className='food_list_slider'>
                             <h1 className='slider__swash'>Just Take A Look</h1>
-                        <Slider item_img={salad_img} />
+                        <Slider item_img={Mains_first_img} />
                         </div>
+                        
+                        {/* Second Main Slider */}
                         <div className='food_list'>
                             { 
                                 salad.map(item =><FoodCard key={item.id} item={item}/>)
                             }
                         </div>
+                        <div className='food_list_slider'>
+                        <Slider item_img={salad_img} />
+                        </div>
+
+                        {/* Third Main Slider */}    
+                        <div className='food_list_slider'>
+                        <Slider item_img={salad_img} />
+                        </div>    
+                        <div className='food_list'>
+                            { 
+                                salad.map(item =><FoodCard key={item.id} item={item}/>)
+                            }
+                        </div>
+                        
+                        
                     </div>
                     {/* <div className='food_list_grid_multi_slider'>
                         <div className='food_list'>

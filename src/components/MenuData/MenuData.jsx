@@ -63,8 +63,7 @@
     ]
 
 
-
-// Soups and Salad Data--------------------------------------------------->>>>>>
+    // Soups and Salad Data--------------------------------------------------->>>>>>
     export const salad = [
         {
             id: "1",
@@ -123,20 +122,10 @@
             food_element: "Sautéed Button Mushrooms, Smoked Chicken Cubes, Chicken Broth"
         }
     ]
-    export const data_indigrate = [
-        {
-            id: "1",
-            name: "Caesar Salad",
-            img: "https://bistro-e.com/wp-content/uploads/elementor/thumbs/Caesar-Salad-1-1-pnvmgnbhr08qntzaei1hfckbc1wlyn5exx3i4vloc0.jpg",
-            price: "750",
-            food_element: "Grilled Chicken Thigh, Seasonal Greens, Tomatoes, Cucumber, Beef Bacon, Boiled Egg."
-        },
-    ]
     // Soups and Salads Slider Images--------------------------->>>>>>>>>>>>>>
     export const salad_img = [
         "https://bistro-e.com/wp-content/uploads/elementor/thumbs/Caesar-Salad-1-1-pnvmgnbhr08qntzaei1hfckbc1wlyn5exx3i4vloc0.jpg","https://bistro-e.com/wp-content/uploads/elementor/thumbs/Roasted-Beetroot-Salad-with-Feta-1-pnvmgo9bxua0zfxx90g3zubrxfrz6c95a1qzm5ka5s.jpg","https://bistro-e.com/wp-content/uploads/elementor/thumbs/Snapper-Nicoise-1-pnvmgnbhr08qntzaei1hfckbc1wlyn5exx3i4vloc0.jpg","https://bistro-e.com/wp-content/uploads/elementor/thumbs/Roasted-Cauliflower-1-1-pnvmgnbhr08qntzaei1hfckbc1wlyn5exx3i4vloc0.jpg","https://thumbs.dreamstime.com/b/french-onion-soup-see-my-other-works-portfolio-36811119.jpg","https://media.istockphoto.com/id/924744284/photo/tabbouleh-salad-with-tomato-cucumber-couscous-mint-and-pomegranate-vegan-healthy-food-concept.jpg?s=612x612&w=0&k=20&c=tGDaGmhegZyBi5rK-v1TAXByQL0RSlZeYPneQ_Xf_bE=","https://media.istockphoto.com/id/653919416/photo/couscous-with-haehnchenbruts.jpg?s=612x612&w=0&k=20&c=AgdLbRBlbptMPu_XwsbivnjQoGGHWfWfY2H0cq73JTE=","https://media.istockphoto.com/id/597926666/photo/mushroom-soup-with-parsley.jpg?s=612x612&w=0&k=20&c=xhUB_u_bUQoumN-uzJQHCMglPlGWJWcnH32lcU-mJkg="
     ]
-
 
 
     //  Platters Data
@@ -166,4 +155,62 @@
             img: "https://bistro-e.com/wp-content/uploads/2022/01/Slider-Fest-1-1.jpg",
             food_element: "Merguez, Dory, Prawn, Signature"
         },
+    ]
+
+
+    // Mains Data----------------------------------->>>>>>>>>>>
+    export const Mains_first = [
+        {
+            id: "1",
+            name: "Moroccan Chicken",
+            img: "https://bistro-e.com/wp-content/uploads/elementor/thumbs/Moroccan-Chicken-1-pnvmgo9bxua0zfxx90g3zubrxfrz6c95a1qzm5ka5s.jpg",
+            price: "900",
+            food_element: "Moroccan Grilled Chicken Thigh, Sautéed Seasonal Vegetables, Paris Mash"
+        },
+        {
+            id: "2",
+            name: "Garlic & Herb Chicken",
+            img: "https://bistro-e.com/wp-content/uploads/elementor/thumbs/Grilled-Prawn-1-pnvmgo9bxua0zfxx90g3zubrxfrz6c95a1qzm5ka5s.jpg",
+            price: "900",
+            food_element: "Grilled Chicken Thigh, Sautéed Seasonal Vegetables, Paris Mash"
+        },
+        {
+            id: "3",
+            name: "Grilled Prawn",
+            img: "https://bistro-e.com/wp-content/uploads/elementor/thumbs/Red-Snapper-1-pnvmgo9bxua0zfxx90g3zubrxfrz6c95a1qzm5ka5s.jpg",
+            price: "1500",
+            food_element: "Large King Prawns, Herbed Garlic Butter, Pasta Aglio Oglio"
+        },
+        {
+            id: "4",
+            name: "Red Snappe",
+            img: "https://bistro-e.com/wp-content/uploads/elementor/thumbs/Seafood-Platter-1-pnvmgo9bxua0zfxx90g3zubrxfrz6c95a1qzm5ka5s.jpg",
+            price: "1,350",
+            food_element: "Red Snapper Fillet, Sautéed Spinach, Paris Mash, Caper Sauce"
+        },
+        {
+            id: "5",
+            name: "Fish & Chips",
+            img: "https://bistro-e.com/wp-content/uploads/elementor/thumbs/Fish-Chips-1-pnvmgq50biclmnv6y19d4tup47iplqglyb1ykphhtc.jpg",
+            price: "900",
+            food_element: "Dory, Tangy Slaw, Lime Wedge, Fries, Tartar Sauce"
+        },
+        {
+            id: "6",
+            name: "Seafood Platter",
+            img: "https://media.istockphoto.com/id/1305699663/photo/seafood-platter-grilled-lobster-shrimps-scallops-langoustines-octopus-squid-on-white-plate.jpg?s=612x612&w=0&k=20&c=iEwdxon7CJ0wQEDy8-kwnz7TLdknVw05vaa-Qc_aHow=",
+            price: "800",
+            food_element: "Grilled Red Snapper & King Prawn, Crispy Salt & Pepper Squid"
+        },
+        {
+            id: "7",
+            name: "Chicken Parmigiana",
+            img: "https://media.istockphoto.com/id/1362340623/photo/chicken-parmigiano-with-linguini-pasta-on-a-plate-black-background.jpg?b=1&s=170667a&w=0&k=20&c=ZjLVury3xIxW9Ygf5UlUkekDDY9f49ALRBqTVSp0XWk=",
+            price: "900",
+            food_element: "Panko Crumbed Chicken Breast, Napoletana Sauce, Mozzarella."
+        },
+    ]
+    // Mains Slider Image------------------------------------>>>>
+    export const Mains_first_img = [
+            "https://bistro-e.com/wp-content/uploads/elementor/thumbs/Moroccan-Chicken-1-pnvmgo9bxua0zfxx90g3zubrxfrz6c95a1qzm5ka5s.jpg","https://bistro-e.com/wp-content/uploads/elementor/thumbs/Grilled-Prawn-1-pnvmgo9bxua0zfxx90g3zubrxfrz6c95a1qzm5ka5s.jpg","https://bistro-e.com/wp-content/uploads/elementor/thumbs/Red-Snapper-1-pnvmgo9bxua0zfxx90g3zubrxfrz6c95a1qzm5ka5s.jpg","https://bistro-e.com/wp-content/uploads/elementor/thumbs/Seafood-Platter-1-pnvmgo9bxua0zfxx90g3zubrxfrz6c95a1qzm5ka5s.jpg"
     ]
