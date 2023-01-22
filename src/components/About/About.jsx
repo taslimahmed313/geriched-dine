@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaChair, FaFire, FaParking, FaSwimmingPool, FaWater, FaWifi } from "react-icons/fa";
 import "./About.css";
 
 const About = () => {
@@ -18,6 +19,26 @@ const About = () => {
                     <img className='hover_effect' src="https://bistro-e.com/wp-content/uploads/elementor/thumbs/About-msc-2-1-pnvmh2cvki0w7l7pjrocf5xbsvmuq1leg6y3nwi5jc.jpg" alt="" />
                 </div>
             </div>
+            <div className='mobile_device_img'>
+                <img className='mobile_first_img hover_effect' src="https://bistro-e.com/wp-content/uploads/elementor/thumbs/About-Msc-4-pnvmh0h76u15vbzvj49dxpkgjc54o39urd4au57t3k.jpg" alt="" />
+                <img className='mobile_second_img hover_effect' src="https://bistro-e.com/wp-content/uploads/elementor/thumbs/About-msc-1-1-pnvmh1f1do2g6xyidmo0i7bx4q0hvsdl3hrsbf6exc.jpg" alt="" />
+                <img className='mobile_first_img hover_effect' src="https://bistro-e.com/wp-content/uploads/elementor/thumbs/WWA-1-1-pnvmfnllbg693lyvgj4sc1whnau1jtvt8n71vr8a34.jpg" alt="" />
+            </div>
+            </div>
+
+            
+            {/* Restaurant Services Area Here */}
+            <div className='restaurant_services'>
+                <h1 className='headtext__services'>Restaurant Services</h1>
+                <div className='icons_grid'>
+                    <span className='icon_vertical_align'><FaWifi/> <span>Free WiFi</span></span>
+                    <span className='icon_vertical_align'><FaFire/> <span>Smoking</span></span>
+                    <span className='icon_vertical_align'><FaWater/> <span>Lakeside</span></span>
+                    <span className='icon_vertical_align'><FaSwimmingPool/> <span>Swimming</span> 
+                     </span>
+                    <span className='icon_vertical_align'><FaParking/> <span>Parking</span></span>
+                    <span className='icon_vertical_align'><FaChair/> <span>Event</span></span>
+                </div>
             </div>
         </div>
     );
