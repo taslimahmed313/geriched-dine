@@ -214,3 +214,59 @@
     export const Mains_first_img = [
             "https://bistro-e.com/wp-content/uploads/elementor/thumbs/Moroccan-Chicken-1-pnvmgo9bxua0zfxx90g3zubrxfrz6c95a1qzm5ka5s.jpg","https://bistro-e.com/wp-content/uploads/elementor/thumbs/Grilled-Prawn-1-pnvmgo9bxua0zfxx90g3zubrxfrz6c95a1qzm5ka5s.jpg","https://bistro-e.com/wp-content/uploads/elementor/thumbs/Red-Snapper-1-pnvmgo9bxua0zfxx90g3zubrxfrz6c95a1qzm5ka5s.jpg","https://bistro-e.com/wp-content/uploads/elementor/thumbs/Seafood-Platter-1-pnvmgo9bxua0zfxx90g3zubrxfrz6c95a1qzm5ka5s.jpg"
     ]
+    // Mains Second Data------------------------------------------>>>>>>>
+    export const Mains_second = [
+        {
+            id: "1",
+            name: "Aubergine Parmigiana",
+            img: "https://bistro-e.com/wp-content/uploads/elementor/thumbs/Aubergine-Parmigiana-1-pnvmgp764obbb1wk3iuqkc38itnce1cvm6eh3fivzk.jpg",
+            price: "750",
+            food_element: "Panko Crumbed Aubergine, Napoletana Sauce,"
+        },
+        {
+            id: "2",
+            name: "Grilled Lamb Chop",
+            img: "https://bistro-e.com/wp-content/uploads/elementor/thumbs/Grilled-Lamb-Chops-1-pnvmgq50biclmnv6y19d4tup47iplqglyb1ykphhtc.jpg",
+            price: "2950",
+            food_element: "Imported Lamb Chops, Sautéed Vegetables, Paris Mash"
+        },
+        {
+            id: "3",
+            name: "Wild Mushroom Risotto",
+            img: "https://bistro-e.com/wp-content/uploads/elementor/thumbs/Wild-Mushroom-Risotto-1-pnvmgp764obbb1wk3iuqkc38itnce1cvm6eh3fivzk.jpg",
+            price: "750",
+            food_element: "Creamy Risotto, Shiitake & Button Mushroom, Parmesan"
+        },
+        {
+            id: "4",
+            name: "Seafood Risotto",
+            img: "https://bistro-e.com/wp-content/uploads/elementor/thumbs/Seafood-Risotto-1-pnvmgo9bxua0zfxx90g3zubrxfrz6c95a1qzm5ka5s.jpg",
+            price: "2250",
+            food_element: "Creamy Risotto, Prawn, Squid, Red Snapper, Parmesan"
+        },
+        {
+            id: "5",
+            name: "Steak Frites",
+            img: "https://bistro-e.com/wp-content/uploads/elementor/thumbs/Steak-Frites-Sirloin-1-pnvmgp764obbb1wk3iuqkc38itnce1cvm6eh3fivzk.jpg",
+            price: "2250",
+            food_element: "300 gms of Rib Eye/Sirloin, Salad, Fries"
+        },
+        {
+            id: "6",
+            name: "Grilled Lamb Chop",
+            img: "https://bistro-e.com/wp-content/uploads/elementor/thumbs/Steak-Frites-Rib-Eye-1-pnvmgp764obbb1wk3iuqkc38itnce1cvm6eh3fivzk.jpg",
+            price: "2950",
+            food_element: "Imported Lamb Chops, Sautéed Vegetables, Paris Mash"
+        },
+        {
+            id: "7",
+            name: "Tenderloin Steak",
+            img: "https://img.freepik.com/premium-photo/grilled-strip-new-york-steak-striploin-beef-meat-steak-black-background-top-view-copy-space_89816-21820.jpg",
+            price: "2650",
+            food_element: "300 gms of Imported Tenderloin, Salad, Fries,"
+        },
+    ]
+    // Mains Second Slider Image------------------------------------>>>>
+    export const Mains_second_img = [
+        "https://bistro-e.com/wp-content/uploads/elementor/thumbs/Aubergine-Parmigiana-1-pnvmgp764obbb1wk3iuqkc38itnce1cvm6eh3fivzk.jpg","https://bistro-e.com/wp-content/uploads/elementor/thumbs/Grilled-Lamb-Chops-1-pnvmgq50biclmnv6y19d4tup47iplqglyb1ykphhtc.jpg","https://bistro-e.com/wp-content/uploads/elementor/thumbs/Wild-Mushroom-Risotto-1-pnvmgp764obbb1wk3iuqkc38itnce1cvm6eh3fivzk.jpg","https://bistro-e.com/wp-content/uploads/elementor/thumbs/Seafood-Risotto-1-pnvmgo9bxua0zfxx90g3zubrxfrz6c95a1qzm5ka5s.jpg","https://bistro-e.com/wp-content/uploads/elementor/thumbs/Steak-Frites-Sirloin-1-pnvmgp764obbb1wk3iuqkc38itnce1cvm6eh3fivzk.jpg","https://bistro-e.com/wp-content/uploads/elementor/thumbs/Steak-Frites-Rib-Eye-1-pnvmgp764obbb1wk3iuqkc38itnce1cvm6eh3fivzk.jpg"
+    ]
