@@ -1,4 +1,10 @@
 
+    export const Menu_bg = ["https://c4.wallpaperflare.com/wallpaper/314/740/853/vegetables-fork-spoon-plate-wallpaper-preview.jpg"]
+
+    export const About_bg = ["https://img.freepik.com/premium-photo/chef-cooking-doing-flambe-food-restaurant-kitchen_530697-787.jpg?w=826"]
+
+    
+    
     export const Starters = [
         {
             id: "1",

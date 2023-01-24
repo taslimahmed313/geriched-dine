@@ -1,9 +1,10 @@
 import React from 'react';
-import { Burgers_first, Burgers_first_image, Drinks, Drinks_hot, Drinks_img, Mains_first, Mains_first_img, Mains_second, Mains_second_img, Mains_third, Mains_third_img, Platters, salad, salad_img, Salad_up, Sandwich, Sandwich_img, Starters, starters_img, Starters_up } from '../MenuData/MenuData';
+import { Burgers_first, Burgers_first_image, Drinks, Drinks_hot, Drinks_img, Mains_first, Mains_first_img, Mains_second, Mains_second_img, Mains_third, Mains_third_img, Menu_bg, Platters, salad, salad_img, Salad_up, Sandwich, Sandwich_img, Starters, starters_img, Starters_up } from '../MenuData/MenuData';
 import MenuItem from '../Menuitem/MenuItem';
 import DrinksSlider from '../Slider/DrinksSlider';
 import Slider from '../Slider/Slider';
 import SubHeading from '../SubHeading/SubHeading';
+import TextOverlay from '../TextOverlay/TextOverlay';
 import FoodCard from './FoodCard';
 import "./FoodList.css";
 
@@ -12,11 +13,9 @@ const FoodList = () => {
     // const [starters, setStarters] = useState(Starters);
   
     return (
-        <div className='app__bg section__padding'>
-             <div className='food_menu'>
-                <h1 className='headtext__cormorant'>Our Menu</h1>
-                <SubHeading title={"The most delicious dishes made from the freshest of ingredients"}/>
-            </div>
+        <div>
+            <TextOverlay source={Menu_bg} page_title={"Our Menu"} />
+            <div className='app__bg section__padding'>
             <div>
                
            {/* Starters Menu List-------------------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */}
@@ -119,26 +118,8 @@ const FoodList = () => {
                         <div className='food_list_slider'>
                             <h1 className='slider__swash extra__padding'>Just Take A Look</h1>
                         <Slider item_img={Mains_third_img} />
-                        </div>  
-                        
-                        
+                        </div>   
                     </div>
-                    {/* <div className='food_list_grid_multi_slider'>
-                        <div className='food_list'>
-                            { 
-                                salad.map(item =><FoodCard key={item.id} item={item}/>)
-                            }
-                        </div>
-                        <div className='food_list_slider'>
-                            { 
-                                data_indigrate.map(item =><FoodCard key={item.id} item={item}/>)
-                            }
-                        <Slider item_img={salad_img} />
-                        { 
-                                data_indigrate.map(item =><FoodCard key={item.id} item={item}/>)
-                            }
-                        </div>       
-                    </div> */}
                 </div>
 
             
@@ -212,6 +193,7 @@ const FoodList = () => {
                 </div>
                   
             </div>
+        </div>
         </div>
     );
 };

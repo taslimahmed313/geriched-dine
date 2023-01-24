@@ -1,11 +1,15 @@
 import React from 'react';
 import { FaChair, FaFire, FaParking, FaSwimmingPool, FaWater, FaWifi } from "react-icons/fa";
+import { About_bg } from '../MenuData/MenuData';
+import TextOverlay from '../TextOverlay/TextOverlay';
 import "./About.css";
 
 const About = () => {
     return (
-        <div className='app__bg section__padding'>
-            <div className='about_grid'>
+        <div>
+            <TextOverlay page_title={"About Us"} source={About_bg}/>
+            <div  className='app__bg section__padding'>
+            <div style={{ marginTop: 50}} className='about_grid'>
                 <div className='about_text'>
                 <h3>High-end bistro serving classic fare with a Mediterranean accent. Doubles as chic, all-day coffee shop adjacent to Edge – Dhaka’s premier art gallery.</h3>
                 <p>Nobody really knows for sure where the word “bistro” comes from. Rumor has it that during the Russian occupation of Paris in the early nineteenth century, Cossacks clamored for their food by shouting “bistro” – meaning “quickly”. Today the bistro culture, with its myriad variants, has spread to all corners of the world. While the word “bistro” may be ubiquitous, your Bistro E is a very special place indeed.</p>
@@ -40,6 +44,7 @@ const About = () => {
                     <span className='icon_vertical_align'><FaChair/> <span>Event</span></span>
                 </div>
             </div>
+        </div>
         </div>
     );
 };

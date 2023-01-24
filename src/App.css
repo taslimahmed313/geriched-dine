@@ -111,6 +111,15 @@
   text-align: center;
   margin-top: 130px;
 }
+.text_overlay_swash {
+  font-family: var(--font-another);
+  color: var(--color-golden);
+  font-size: 64px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-weight: 500;
+  text-align: center;
+}
 .slider__swash {
   font-family: var(--font-another);
   color: var(--color-golden);
@@ -197,6 +206,10 @@
 
   .headtext__cormorant {
     font-size: 45px;
+    line-height: 70px;
+  }
+  .text_overlay_swash {
+    font-size: 54px;
     line-height: 70px;
   }
   .headtext__swash {
