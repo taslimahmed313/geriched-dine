@@ -15,7 +15,7 @@ const MenuItem = ({ title, price, tags }) => (
     </div>
 
     <div className="app__menuitem-sub">
-      <p className="p__opensans" style={{ color: '#AAAAAA' }}>{tags}</p>
+      {tags && <p className="p__opensans" style={{ color: '#AAAAAA' }}>{tags}</p>}
     </div>
   </div>
 );

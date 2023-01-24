@@ -1,5 +1,7 @@
 import React from 'react';
-import { Burgers_first, Burgers_first_image, Mains_first, Mains_first_img, Mains_second, Mains_second_img, Mains_third, Mains_third_img, Platters, salad, salad_img, Salad_up, Sandwich, Sandwich_img, Starters, starters_img, Starters_up } from '../MenuData/MenuData';
+import { Burgers_first, Burgers_first_image, Drinks, Drinks_hot, Drinks_img, Mains_first, Mains_first_img, Mains_second, Mains_second_img, Mains_third, Mains_third_img, Platters, salad, salad_img, Salad_up, Sandwich, Sandwich_img, Starters, starters_img, Starters_up } from '../MenuData/MenuData';
+import MenuItem from '../Menuitem/MenuItem';
+import DrinksSlider from '../Slider/DrinksSlider';
 import Slider from '../Slider/Slider';
 import SubHeading from '../SubHeading/SubHeading';
 import FoodCard from './FoodCard';
@@ -172,6 +174,41 @@ const FoodList = () => {
                         </div>
                         
                     </div>
+            </div>
+
+
+
+            {/* Soft Drinks */}
+            <div style={{ marginTop: 180 }} className="app__specialMenu flex__center section__padding" id="menu">
+    <div className="app__specialMenu-title">
+      <SubHeading title="Menu that fits your palatte" />
+      <h1 className="headtext__cormorant">Soft Drinks</h1>
+    </div>
+
+    <div className="app__specialMenu-menu">
+      <div className="app__specialMenu-menu_wine  flex__center">
+        <p className="app__specialMenu-menu_heading">Shakes & Frappé</p>
+        <div className="app__specialMenu_menu_items">
+          {Drinks.map((wine, index) => (
+            <MenuItem key={wine.title + index} title={wine.title} price={wine.price} tags={wine.tags} />
+          ))}
+        </div>
+      </div>
+
+        <div className='Drinks_slider'>
+            <DrinksSlider item_img={Drinks_img} />
+        </div>
+
+      <div className="app__specialMenu-menu_cocktails  flex__center">
+        <p className="app__specialMenu-menu_heading">Tea & Coffee</p>
+        <div className="app__specialMenu_menu_items">
+          {Drinks_hot.map((cocktail, index) => (
+            <MenuItem key={cocktail.title + index} title={cocktail.title} price={cocktail.price} tags={cocktail.tags} />
+          ))}
+        </div>
+      </div>
+    </div>
+
                 </div>
                   
             </div>

@@ -477,5 +477,92 @@
 
 
 
-
-    // 
+    // Drinks
+    export const Drinks = [
+        {
+            title: "Butter Shake",
+            price: "BDT 550",
+            tags: "CA | 400ml"
+        },
+        {
+            title: "Nutella",
+            price: "BDT 350",
+            tags: "DA | 200ml"
+        },
+        {
+            title: "Brownie",
+            price: "BDT 550",
+            tags: "IR | 500ml"
+        },
+        {
+            title: "Chocolate",
+            price: "BDT 250",
+            tags: "CA | 200ml"
+        },
+        {
+            title: "Oreo",
+            price: "BDT 350",
+            tags: "RA | 200ml"
+        },
+        {
+            title: "Carmel",
+            price: "BDT 550",
+            tags: "CA | 200ml"
+        },
+        {
+            title: "Scotch",
+            price: "BDT 450",
+            tags: "JA | 500ml"
+        },
+        {
+            title: "Virgin",
+            price: "BDT 450",
+            tags: "CD | 200ml"
+        },
+       
+    ]
+    export const Drinks_hot = [
+        {
+            title: "Espresso",
+            price: "BDT 150",
+            tags: "Single | Double"
+        },
+        {
+            title: "Americano",
+            price: "BDT 250",
+            tags: "Quarter | Full"
+        },
+        {
+            title: "Cappuccino",
+            price: "BDT 250",
+            tags: "Single | Twin"
+        },
+        {
+            title: "Latte",
+            price: "BDT 250",
+            tags: "Full | Half"
+        },
+        {
+            title: "Chocolate",
+            price: "BDT 400",
+            tags: "Hot | Cold"
+        },
+        {
+            title: "Black Tea",
+            price: "BDT 150",
+            tags: "Quarter | Full"
+        },
+        {
+            title: "Camomile",
+            price: "BDT 150",
+            tags: "Hot | Cold"
+        },
+        {
+            title: "Orange Mint",
+            price: "BDT 150",
+            tags: "Ice"
+        },
+    ]
+    export const Drinks_img = [
+        "https://images.unsplash.com/photo-1534353473418-4cfa6c56fd38?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8anVpY2V8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60","https://images.unsplash.com/photo-1653852883277-c4b4b9e020e5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y29vbGRyaW5rc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60","https://images.unsplash.com/photo-1594631252845-29fc4cc8cde9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dGVhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60","https://images.unsplash.com/photo-1553607558-455f4310f6ec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGp1aWNlJTIwYmxhY2t8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60","https://images.unsplash.com/photo-1623400518585-164b430fbe74?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGp1aWNlJTIwYmxhY2t8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60","https://images.unsplash.com/photo-1497636577773-f1231844b336?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGNvZmZlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+    ]
