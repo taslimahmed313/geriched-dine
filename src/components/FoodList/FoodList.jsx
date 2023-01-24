@@ -1,5 +1,5 @@
 import React from 'react';
-import { Burgers_first, Burgers_first_image, Mains_first, Mains_first_img, Mains_second, Mains_second_img, Mains_third, Mains_third_img, Platters, salad, salad_img, Salad_up, Starters, starters_img, Starters_up } from '../MenuData/MenuData';
+import { Burgers_first, Burgers_first_image, Mains_first, Mains_first_img, Mains_second, Mains_second_img, Mains_third, Mains_third_img, Platters, salad, salad_img, Salad_up, Sandwich, Sandwich_img, Starters, starters_img, Starters_up } from '../MenuData/MenuData';
 import Slider from '../Slider/Slider';
 import SubHeading from '../SubHeading/SubHeading';
 import FoodCard from './FoodCard';
@@ -153,6 +153,24 @@ const FoodList = () => {
                             <h1 className='slider__swash'>Just Take A Look</h1>
                         <Slider item_img={Burgers_first_image} />
                         </div>
+                    </div>
+            </div>
+
+
+
+            {/* Sandwich Menu List */}
+            <div>
+                    <h1 className='headtext__swash'>Sandwiches</h1>
+                    <div className='food_list_grid'>
+                        <div className='food_list_slider'>
+                        <Slider item_img={Sandwich_img} />
+                        </div>
+                        <div className='food_list'>
+                            { 
+                                Sandwich.map(item =><FoodCard key={item.id} item={item}/>)
+                            }
+                        </div>
+                        
                     </div>
                 </div>
                   

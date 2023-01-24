@@ -422,3 +422,60 @@
     export const Burgers_first_image = [
         "https://bistro-e.com/wp-content/uploads/elementor/thumbs/Dijon-Burger-1-1-pnvmgq50biclmnv6y19d4tup47iplqglyb1ykphhtc.jpg","https://bistro-e.com/wp-content/uploads/elementor/thumbs/Blue-Cheese-Burger-1-pnvmgq50biclmnv6y19d4tup47iplqglyb1ykphhtc.jpg","https://bistro-e.com/wp-content/uploads/elementor/thumbs/Duxelle-Burger-1-pnvmgq50biclmnv6y19d4tup47iplqglyb1ykphhtc.jpg","https://bistro-e.com/wp-content/uploads/elementor/thumbs/The-Edge-Burger-1-pnvmgr2uicdvy9ttsjnzpbm5ple2tfkcafpg1zg3n4.jpg","https://bistro-e.com/wp-content/uploads/elementor/thumbs/Prawn-Sliders-1-pnvmgr2uicdvy9ttsjnzpbm5ple2tfkcafpg1zg3n4.jpg","https://bistro-e.com/wp-content/uploads/elementor/thumbs/Slider-Fest-3-1-pnvmgr2uicdvy9ttsjnzpbm5ple2tfkcafpg1zg3n4.jpg"
     ]
+
+
+
+
+    // Sandwiches All Data Here-------------------------------->>>>>>>>>>>>>>>
+    export const Sandwich = [
+        {
+            id: "1",
+            name: "Roast Beef Sandwich",
+            img: "https://bistro-e.com/wp-content/uploads/elementor/thumbs/Raost-Beef-Sandwich-1-pnvmgs0op6f69vsgn22m9tdmaz9g14o2mkcxj9epgw.jpg",
+            price: "700",
+            food_element: "Roast Beef SandwichRoasted Beef, Caramelized Onions, Cheddar, Gherkins, Multigrain Brown Bread"
+        },
+        {
+            id: "2",
+            name: "Chicken Sandwich",
+            img: "https://bistro-e.com/wp-content/uploads/elementor/thumbs/Chicken-Sandwich-1-pnvmgs0op6f69vsgn22m9tdmaz9g14o2mkcxj9epgw.jpg",
+            price: "700",
+            food_element: "RChicken, Sautéed Onions, Gherkins, Mozzarella"
+        },
+        {
+            id: "3",
+            name: "Lox Bagel",
+            img: "https://bistro-e.com/wp-content/uploads/elementor/thumbs/Lox-Bagel-1-pnvmgr2uicdvy9ttsjnzpbm5ple2tfkcafpg1zg3n4.jpg",
+            price: "1350",
+            food_element: "Smoked Salmon, Toasted Bagel, Cream Cheese, Capers, Onions, Tartar Sauce"
+        },
+        {
+            id: "4",
+            name: "Caprese Sandwich",
+            img: "https://bistro-e.com/wp-content/uploads/elementor/thumbs/Caprese-Sandwich-1-pnvmgr2uicdvy9ttsjnzpbm5ple2tfkcafpg1zg3n4.jpg",
+            price: "500",
+            food_element: "Tomatoes, Mozzarella, Olive Oil, Pesto, Multigrain Brown Bread, Pesto Aioli"
+        },
+        {
+            id: "5",
+            name: "Mushroom Melt",
+            img: "https://bistro-e.com/wp-content/uploads/elementor/thumbs/Mushroom-Melt-1-pnvmgr2uicdvy9ttsjnzpbm5ple2tfkcafpg1zg3n4.jpg",
+            price: "650",
+            food_element: "Sautéed Oyster & Button Mushroom, Caramelized Onions"
+        },
+        {
+            id: "6",
+            name: "Zucchini Eggplant",
+            img: "https://thumbs.dreamstime.com/b/vegetable-sandwich-eggplant-zucchini-vegetarian-lettuce-tomato-60275920.jpg",
+            price: "500",
+            food_element: "Zucchini Eggplant Sandwich Grilled Zucchini, Eggplant, Sautéed Onions, Gherkins"
+        },
+    ]
+    export const Sandwich_img = [
+        "https://bistro-e.com/wp-content/uploads/elementor/thumbs/Raost-Beef-Sandwich-1-pnvmgs0op6f69vsgn22m9tdmaz9g14o2mkcxj9epgw.jpg","https://bistro-e.com/wp-content/uploads/elementor/thumbs/Chicken-Sandwich-1-pnvmgs0op6f69vsgn22m9tdmaz9g14o2mkcxj9epgw.jpg","https://bistro-e.com/wp-content/uploads/elementor/thumbs/Lox-Bagel-1-pnvmgr2uicdvy9ttsjnzpbm5ple2tfkcafpg1zg3n4.jpg","https://bistro-e.com/wp-content/uploads/elementor/thumbs/Caprese-Sandwich-1-pnvmgr2uicdvy9ttsjnzpbm5ple2tfkcafpg1zg3n4.jpg","https://bistro-e.com/wp-content/uploads/elementor/thumbs/Mushroom-Melt-1-pnvmgr2uicdvy9ttsjnzpbm5ple2tfkcafpg1zg3n4.jpg"
+    ]
+
+
+
+
+    // 
