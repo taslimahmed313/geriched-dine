@@ -124,7 +124,7 @@ const FoodList = () => {
 
             
            {/* Burger Menu List----------------------------->>>>>>>>>>>>>>>>>>>  */}
-           <div>
+           <div id='burger'>
                     <h1 className='headtext__swash'>Gourmet Burgers</h1>
                     <div className='food_list_grid'>
                         <div className='food_list'>

@@ -1,5 +1,6 @@
 import About from "../../components/About/About";
 import FoodList from "../../components/FoodList/FoodList";
+import Conduct from "../../container/Conduct/Conduct";
 
 const { createBrowserRouter } = require("react-router-dom");
 const { default: Home } = require("../../components/Home/Home");
@@ -21,6 +22,10 @@ export const router = createBrowserRouter([
       {
         path: "/about_us",
         element: <About/>
+      },
+      {
+        path: "/conduct",
+        element: <Conduct/>
       }
     ],
   },

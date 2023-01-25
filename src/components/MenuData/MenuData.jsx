@@ -3,6 +3,9 @@
 
     export const About_bg = ["https://img.freepik.com/premium-photo/chef-cooking-doing-flambe-food-restaurant-kitchen_530697-787.jpg?w=826"]
 
+
+    export const Conduct_bg = ["https://www.teahub.io/photos/full/253-2538233_itap-of-some-men-outside-a-restaurant-wallpaper.jpg"]
+
     
     
     export const Starters = [
