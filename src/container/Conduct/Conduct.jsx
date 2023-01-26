@@ -16,9 +16,9 @@ const Conduct = () => {
             <div>
                 <button onClick={() => setToggleMenu(true)} className='headtext__swash'>Click</button>
             </div>
-            {toggleMenu && <div className='headtext__swash app__navbar-smallscreen_overlay'>
-            <p>I am Here</p>
-            <p onClick={() => setToggleMenu(false)}>Close</p>
+            {toggleMenu && <div className='conduct__overlay'>
+            <p className='headtext__swash'>I am Here</p>
+            <p className='headtext__swash overlay__close' onClick={() => setToggleMenu(false)}>Close</p>
             </div>}
         </div>
     );

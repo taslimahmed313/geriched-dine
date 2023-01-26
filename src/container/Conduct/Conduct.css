@@ -1,0 +1,37 @@
+.conduct__main {
+  position: relative;
+  height: 100vh;
+}
+.conduct__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 100%;
+  width: 100%;
+  height: 100vh;
+  background: var(--color-black);
+  opacity: 0.9;
+  transition: 2s;
+
+  z-index: 5;
+}
+/* .conduct__overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008cba;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  transition: 1.5s ease;
+} */
+.conduct__overlay .overlay__close {
+  font-size: 27px;
+  color: var(--color-golden);
+  cursor: pointer;
+
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
