@@ -23,7 +23,7 @@ const Navbar = () => {
       <div className="app__navbar-login">
         <Link to="/signup" className="p__opensans">Log In / Registration</Link>
         <div />
-        <a href="/" className="p__opensans">Book Table</a>
+        <Link to="/book_table" className="p__opensans">Book Table</Link>
       </div>
       <div className="app__navbar-smallscreen">
         <GiHamburgerMenu color="#fff" fontSize={27} onClick={() => setToggleMenu(true)} />

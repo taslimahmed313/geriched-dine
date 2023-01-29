@@ -1,5 +1,6 @@
 import About from "../../components/About/About";
 import Authentication from "../../components/Authentication/Authentication";
+import BookTable from "../../components/BookTable/BookTable";
 import FoodList from "../../components/FoodList/FoodList";
 import Conduct from "../../container/Conduct/Conduct";
 
@@ -31,6 +32,10 @@ export const router = createBrowserRouter([
       {
         path: "/signup",
         element: <Authentication/>
+      },
+      {
+        path: "/book_table",
+        element: <BookTable/>
       }
     ],
   },
