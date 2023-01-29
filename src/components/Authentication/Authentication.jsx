@@ -1,19 +1,36 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { useForm } from 'react-hook-form';
+import { AuthContext } from '../../contexts/AuthProvider';
 import "./Authentication.css";
 
 const Authentication = () => {
 
 	const { register, handleSubmit, watch, formState: { errors } } = useForm();
 
+	const {createUser, updateUser, signIn} = useContext(AuthContext);
 
-	//  const onSubmit = data => console.log(data);
+
 	const  handleSignUp = data =>{
 		console.log(data)
+		createUser(data.signEmail, data.signPass)
+		.then(result => {
+			const user = result.user;
+			const profile = {displayName: data.name};
+            updateUser(profile)
+			.then(()=>{})
+			.catch(e => console.log(e))
+			console.log(user);
+		})
+		.catch(e => console.log(e))
 	}
 
 	const handleLogin = data =>{
-		console.log(data)
+		signIn(data.logEmail, data.logPass)
+		.then(result => {
+			const user = result.user;
+			console.log(user)
+		})
+		.catch(e => console.log(e))
 	}
 
     return (
