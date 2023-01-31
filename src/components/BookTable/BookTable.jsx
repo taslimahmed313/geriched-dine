@@ -2,7 +2,7 @@ import React from 'react';
 
 const BookTable = () => {
     return (
-        <div>
+        <div className='app__bg'>
             <h1>This is Reservation Area</h1>
         </div>
     );

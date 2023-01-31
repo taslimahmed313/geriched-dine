@@ -15,6 +15,7 @@ import gericht from '../assets/gericht.png';
 import knife from '../assets/knife.png';
 import laurels from '../assets/laurels.png';
 import logo from '../assets/logo.png';
+import map from "../assets/map.png";
 import menu from '../assets/menu.png';
 import overlaybg from '../assets/overlaybg.png';
 import quote from '../assets/quote.png';
@@ -46,4 +47,5 @@ export default {
   quote,
   gericht,
   check_mark,
+  map,
 };

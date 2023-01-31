@@ -111,6 +111,15 @@
   text-align: center;
   margin-top: 130px;
 }
+.start__swash {
+  font-family: var(--font-another);
+  color: var(--color-golden);
+  font-size: 45px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-weight: 200;
+  margin-top: 20px;
+}
 .text_overlay_swash {
   font-family: var(--font-another);
   color: var(--color-golden);
@@ -213,6 +222,10 @@
     line-height: 70px;
   }
   .headtext__swash {
+    margin-top: 50px;
+    font-size: 38px;
+  }
+  .start__swash {
     margin-top: 50px;
     font-size: 38px;
   }
