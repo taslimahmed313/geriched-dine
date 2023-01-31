@@ -1,1 +1,1 @@
-## Live Site: https://github.com/taslimahmed313/geriched-dine
+## Live Site: https://gericht-dine.netlify.app/
