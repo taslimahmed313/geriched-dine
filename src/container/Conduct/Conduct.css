@@ -3,7 +3,7 @@
   grid-template-columns: 3.5fr 2fr;
   gap: 50px;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 70px;
 }
 .map img {
   width: 100%;
@@ -75,6 +75,13 @@
   right: 0px;
 } */
 @media screen and (max-width: 650px) {
+  .conduct__main {
+    grid-template-columns: repeat(1, 1fr);
+    flex-direction: column-reverse;
+  }
+  .map img {
+    height: 400px;
+  }
   .delivery__images {
     grid-template-columns: repeat(1, 1fr);
   }

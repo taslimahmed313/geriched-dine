@@ -50,13 +50,13 @@ const Conduct = () => {
                     {delivery_site.map((d_img,i)=> <img key={i} className='hover_effect' src={d_img} alt="images"/>)}
                 </div>
             </div>
-            <div>
+            {/* <div>
                 <button onClick={() => setToggleMenu(true)} className='headtext__swash'>Click</button>
-            </div>
-            {toggleMenu && <div className='conduct__overlay'>
+            </div> */}
+            {/* {toggleMenu && <div className='conduct__overlay'>
             <p className='headtext__swash'>I am Here</p>
             <p className=' overlay__close' onClick={() => setToggleMenu(false)}>X</p>
-            </div>}
+            </div>} */}
         </div>
     );
 };
