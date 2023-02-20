@@ -33,6 +33,8 @@ const Authentication = () => {
 		.catch(e => console.log(e))
 	}
 
+	 
+
     return (
         <div className='auth__body app__bg'>
             <div className="main">  	

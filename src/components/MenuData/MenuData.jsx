@@ -6,6 +6,8 @@
 
     export const Conduct_bg = ["https://www.teahub.io/photos/full/253-2538233_itap-of-some-men-outside-a-restaurant-wallpaper.jpg"]
 
+    export const Reservation_bg = ["https://c1.wallpaperflare.com/preview/776/180/874/coffee-shop-indoors-cafe-restaurant.jpg"]
+
     
     
     export const Starters = [
@@ -575,3 +577,7 @@
     export const Drinks_img = [
         "https://images.unsplash.com/photo-1534353473418-4cfa6c56fd38?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8anVpY2V8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60","https://images.unsplash.com/photo-1653852883277-c4b4b9e020e5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y29vbGRyaW5rc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60","https://images.unsplash.com/photo-1594631252845-29fc4cc8cde9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dGVhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60","https://images.unsplash.com/photo-1553607558-455f4310f6ec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGp1aWNlJTIwYmxhY2t8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60","https://images.unsplash.com/photo-1623400518585-164b430fbe74?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGp1aWNlJTIwYmxhY2t8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60","https://images.unsplash.com/photo-1497636577773-f1231844b336?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGNvZmZlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
     ]
+
+
+    // Reservation Page Slider---->>
+    export const Reservation = ["https://bistro-e.com/wp-content/uploads/2022/02/Main-Dine-Reservation-1.jpg","https://bistro-e.com/wp-content/uploads/2022/02/LSP-Reservation-Image-1.jpg","https://bistro-e.com/wp-content/uploads/2022/02/Clubroom-for-Reservation-2-1.jpg"]

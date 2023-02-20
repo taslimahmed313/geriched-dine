@@ -1,0 +1,38 @@
+.reservation-section__content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 50px;
+}
+.reservation__form {
+  width: 100%;
+  background-color: var(--color-black);
+  padding: 52px 0;
+  border-radius: 12px;
+}
+.reservation__form h3 {
+  font-size: 45px;
+  text-align: center;
+  color: var(--color-golden);
+  margin-bottom: 50px;
+}
+.reservation__slider {
+  width: 600px;
+}
+@media screen and (max-width: 575px) {
+  .reservation-section__content {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0px;
+  }
+  .reservation__form {
+    padding: 20px;
+  }
+  .reservation__form h3 {
+    font-size: 28px;
+    padding: 0 22px;
+    margin: 15px 0;
+  }
+  .reservation__slider {
+    width: 320px;
+  }
+}

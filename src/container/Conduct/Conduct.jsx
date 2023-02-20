@@ -24,7 +24,7 @@ const Conduct = () => {
                     <img src={images.map} alt="" />
                 </div>
                 <div className='hours'>
-                    <h2 className='hours_title'>Hours</h2>
+                    <h2 className='hours__title'>Hours</h2>
                     <div>
                         <h3>Breakfast </h3>
                     <p>8 am - 11:30 am</p>
